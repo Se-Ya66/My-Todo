@@ -2,11 +2,11 @@
     <div>
         <Header />
         <v-container>
-            <v-row>
+            <v-row
+            >
                 <v-col  v-for="todo in todos" :key="todo.id"
-                cols="2"
-                md="2">
-                    <v-card light raised width="200" height="250"  class="ma-4" :color="todo.color">
+                md="2" sm="3" xs="2" lg="2">
+                    <v-card light raised width="200" height="250" class="ma-4" :color="todo.color">
                         <v-card-title class="headline">{{todo.title}}</v-card-title>
                         <v-card-subtitle>{{todo.subtitle}}</v-card-subtitle>
                         <v-divider class="mx-3"></v-divider>
@@ -19,10 +19,10 @@
                         </v-card-actions>
                     </v-card>
                 </v-col>
-                <v-col cols="2">
+                <v-col md="2" sm="3" xs="2" lg="2">
                     <v-dialog v-model="dialog" max-width="350">
                         <template v-slot:activator="{ on, attrs }">
-                            <v-card  width="200" height="250" class=" ma-4">
+                            <v-card  width="200" height="250" class="ma-4">
                                 <v-card-actions >
                                     <v-btn class="mx-2" fab dark color="grey" @click.stop="dialog = true"
                                     v-bind="attrs"
@@ -62,7 +62,6 @@
 
 <script>
 import Header from '~/components/Header.vue'
-
 export default {
 components: {
     Header,
@@ -133,8 +132,8 @@ computed: {
 }
 .mx-2 {
     position: absolute;
-    bottom: 110px;
-    right: 45px;
+    top:30%;
+    left:30%;
 }
 .cancel-btn {
     margin-left: 20px;
@@ -147,5 +146,10 @@ computed: {
 }
 .color-btns{
     margin-right: -10px;
+}
+@media (min-width: 1024px) {
+    .mx-2 {
+        left:28%;
+    }
 }
 </style>

@@ -54,8 +54,13 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    
+    'nuxt-webfontloader'
   ],
+  webfontloader: {
+    google: {
+      families: ['Cookie&display']
+    }
+  },
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module

@@ -11,6 +11,7 @@
   "dependencies": {
     "firebase": "^7.21.1",
     "nuxt": "^2.14.0",
+    "nuxt-webfontloader": "^1.1.0",
     "vuex-persistedstate": "^3.1.0",
     "vuexfire": "^3.0.1"
   },
