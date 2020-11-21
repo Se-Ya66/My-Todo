@@ -20,7 +20,9 @@
                     </v-form>
                     <v-form>
                     <v-card-actions>
-                        <v-btn @click="login()">ログイン</v-btn>
+                        <v-row justify="center">
+                            <v-btn @click="login()">ログイン</v-btn>
+                        </v-row>
                     </v-card-actions>
                     </v-form>
                 </v-card-text>

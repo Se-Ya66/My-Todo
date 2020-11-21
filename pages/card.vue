@@ -142,7 +142,7 @@ computed: {
     margin-bottom: 20px;
 }
 .done-btn{
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .color-btns{
     margin-right: -10px;
