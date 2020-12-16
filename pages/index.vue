@@ -81,24 +81,24 @@ export default {
     margin-top:10%;
 }
 .site-title{
-color:#fff;
-font-size: 7rem;
-font-family: 'Cookie', cursive;
-letter-spacing: 3px;
+    color:#fff;
+    font-size: 7rem;
+    font-family: 'Cookie', cursive;
+    letter-spacing: 3px;
 }
 .sub{
-margin-top: 40px;
+    margin-top: 40px;
 }
 .sub-text{
-color:#fff;
+    color:#fff;
 }
 .sub-ex{
-color:#fff;
-font-size:12px;
+    color:#fff;
+    font-size:12px;
 }
 .display{
-font-size:18px;
-letter-spacing: 2px;
+    font-size:18px;
+    letter-spacing: 2px;
 }
 .btn {
     background-color:#fff;
@@ -123,38 +123,38 @@ letter-spacing: 2px;
 
 @media (max-width: 1024px) {
     .top-container{
-    margin-top:50%;
+        margin-top:50%;
     }
     .site-title{
-    font-size: 10rem;
+        font-size: 10rem;
     }
     .btn {
-    width: 125px;
-    line-height: 50px;
+        width: 125px;
+        line-height: 50px;
     }
 }
 @media (max-width: 800px) {
     .top-container{
-    margin-top:45%;
+        margin-top:45%;
     }
     .site-title{
-    font-size: 8rem;
+        font-size: 8rem;
     }
     .btn {
-    width: 125px;
-    line-height: 50px;
+        width: 125px;
+        line-height: 50px;
     }
 }
 @media (max-width: 767px) {
     .top-container{
-    margin-top:50%;
+        margin-top:50%;
     }
     .site-title{
-    font-size: 5rem;
+        font-size: 5rem;
     }
     .btn {
-    width: 100px;
-    line-height: 40px;
+        width: 100px;
+        line-height: 40px;
     }
 }
 </style>
